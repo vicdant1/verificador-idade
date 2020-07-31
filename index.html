@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade </title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="img/icon.png" type="image/png" rel="icon">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver os resultados
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jotavê</p>
+    </footer>
+    <footer><p>Ícones feitos por <a class="link" href="https://www.flaticon.com/br/autores/flat-icons" title="Flat Icons"><u>Flat Icons</u></a> from <a class="link" href="https://www.flaticon.com/br/" title="Flaticon"> <u>www.flaticon.com</u></p></a></footer>
+    <footer>Modelo baseado em atividade do curso em vídeo por Gustavo Guanabara</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
